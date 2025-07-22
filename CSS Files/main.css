@@ -1,0 +1,88 @@
+.ad-panel {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.lazada-slide {
+  height: 344px;
+}
+
+.laz-ad {
+  height: 344px;
+}
+
+.panel-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.TVL-panel {
+  display: flex;
+  justify-content: space-between;
+
+  width: 388px;
+  height: 130px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.ad-icons {
+  width: 138px;
+}
+
+.panel-text-column {
+  padding: 12px;
+}
+
+.title-panel {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: 147.7px 147.7px 147.7px 147.7px 147.7px 147.7px 147.7px 147.7px;
+  grid-template-rows: 147.7px 147.7px;
+  column-gap: 1px;
+  row-gap: 1px;
+  background-color: rgb(227, 242, 255);
+  margin-bottom: 50px;
+
+}
+
+.category-box {
+  background-color: white;
+  
+}
+
+.category-box:hover {
+  box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.684);
+  z-index: 100;
+position: relative;
+}
+.category-box img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.category-box p {
+  font-size: 14px;
+  margin: 8px 12px 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical; /*controls the direction*/
+  overflow: hidden; /* hide overflow */
+  text-align: center;
+}
+
+.category-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 16px;
+}

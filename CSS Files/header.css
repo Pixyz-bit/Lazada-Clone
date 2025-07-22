@@ -1,0 +1,81 @@
+header {
+  background-color: white;
+  padding-left: 150px;
+  padding-left: 150px;
+
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.header-content{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1188px;
+}
+.left-section{
+    display: flex;
+  align-items: center;
+}
+
+.lazada-logo {
+  width: 150px;
+}
+
+.middle-section{
+    display: flex;
+  align-items: center;
+}
+
+.search-bar{
+  font-size: 14px;
+  font-family: roboto,helvetica;
+  padding: 11px 19px;
+  color: rgb(33, 33, 33);
+  border-color: rgb(33, 33, 33);
+  background-color: rgb(239, 240, 245);
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-width: 0;
+  width: 650px;
+  height: 23px; 
+}
+
+.search-bar:focus{
+  outline: none;
+}
+
+.search-btn {
+  height: 44px;
+  width: 44px;
+  border: 0;
+  margin-right: 20px;
+  background-color: #f57724;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.search-icon {
+  width: 23px;
+}
+
+.cart-btn {
+  width: 45px;
+  cursor: pointer;
+}
+
+
+.right-section{
+  display: flex;
+  align-items: center;
+}
+
+.ad-link {
+  height: 45px;
+}
+
+
+
